@@ -1,4 +1,3 @@
 config.codekit
 .codekit-cache/
-scss/
-js/core.js
+scss/.sass-cache/

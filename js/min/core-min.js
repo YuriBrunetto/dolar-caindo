@@ -1,1 +1,1 @@
-$(function(){$.getJSON("http://developers.agenciaideias.com.br/cotacoes/json",function(o){var a=o.dolar.cotacao;a=parseFloat(a).toFixed(2),a=a.replace(".",","),$(".dolar").text("R$ "+a)})});
+$(function(){function e(){$.getJSON("http://developers.agenciaideias.com.br/cotacoes/json",function(e){var o=e.dolar.cotacao;o=parseFloat(o).toFixed(2),o=o.replace(".",","),$(".dolar").text("R$ "+o)})}e(),setInterval(function(){e()},1e3)});
