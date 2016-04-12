@@ -1,0 +1,1 @@
+$(function(){$.getJSON("http://developers.agenciaideias.com.br/cotacoes/json",function(o){var a=o.dolar.cotacao;a=parseFloat(a).toFixed(2),a=a.replace(".",","),$(".dolar").text("R$ "+a)})});
