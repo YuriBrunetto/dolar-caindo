@@ -1,0 +1,33 @@
+{
+  "name": "dolar-caindo",
+  "version": "1.0.0",
+  "description": "Atualizando o valor do dólar todo segundo!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriBrunetto/dolar-caindo.git"
+  },
+  "keywords": [
+    "dolar",
+    "caindo",
+    "dolar",
+    "valor",
+    "usd"
+  ],
+  "author": "Yuri Brunetto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuriBrunetto/dolar-caindo/issues"
+  },
+  "homepage": "https://github.com/YuriBrunetto/dolar-caindo#readme",
+  "devDependencies": {
+      "browser-sync": "^2.12.7",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-sass": "^2.3.1",
+      "gulp-uglify": "^1.5.3"
+  }
+}

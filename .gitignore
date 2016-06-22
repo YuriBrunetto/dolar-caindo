@@ -1,3 +1,1 @@
-config.codekit
-.codekit-cache/
-scss/.sass-cache/
+node_modules
